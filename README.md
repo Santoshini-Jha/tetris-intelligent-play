@@ -21,7 +21,6 @@
  The AI evaluates all legal rotations and positions of a piece using a heuristic:
  
  score = (linesCleared * wLines)
- 
         - (aggregateHeight * wHeight)
         - (holes * wHoles)
         - (bumpiness * wBumpiness)
