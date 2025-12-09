@@ -21,6 +21,7 @@
  The AI evaluates all legal rotations and positions of a piece using a heuristic:
  
  score = (linesCleared * wLines)
+ 
         - (aggregateHeight * wHeight)
         - (holes * wHoles)
         - (bumpiness * wBumpiness)
@@ -33,23 +34,32 @@
 
 # ⌨️ Controls
  . Left Arrow → Move piece left
+ 
  . Right Arrow → Move piece right
+ 
  . Down Arrow → Soft drop
+ 
  . Up Arrow → Rotate piece
+ 
  . Space → Hard drop
 
 # 🤖 AI Mode
  . Click Start AI to let the AI play automatically. You can change:
+ 
  . AI decision delay (ms)
+ 
  . Lines / Height / Holes / Bumpiness weights for the heuristic
 
 # 🚀 Future Improvements
  . Add next‑piece lookahead for stronger AI
+ 
  . Add sound effects
+ 
  . Improve UI with better theming
+ 
  . Add leaderboard / high-score save
 
-Convert into a React app
+ . Convert into a React app
 
 # 📜 License
  MIT License — free to use, modify, and distribute.
