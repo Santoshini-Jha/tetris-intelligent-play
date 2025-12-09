@@ -6,24 +6,25 @@
 
 # 🎮 Features
  . Fully playable Tetris (manual mode with arrow keys + space)
+ 
  . Built‑in AI player that can play automatically
+ 
  . Adjustable AI weights to modify gameplay style
+ 
  . Adjustable fall speed & AI decision delay
+ 
  . Clean, single‑file implementation (index.html)
+ 
  . Responsive UI with real-time score, lines, and level tracking
 
 # 🧠 AI Logic
  The AI evaluates all legal rotations and positions of a piece using a heuristic:
+ 
  score = (linesCleared * wLines)
         - (aggregateHeight * wHeight)
         - (holes * wHoles)
         - (bumpiness * wBumpiness)
  You can tweak all weights in the UI to experiment with how the AI plays.
-
-# 📂 Repository Structure
- Tetris-AI/
-    ├── index.html   # Main game file (HTML + CSS + JS)
-    └── README.md    # Game documentation
 
 # ▶️ How to Run
  1. Download or copy index.html from the repository.
