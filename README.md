@@ -4,7 +4,7 @@
 
 <img width="1903" height="968" alt="Screenshot 2025-12-09 195226" src="https://github.com/user-attachments/assets/29c01224-e790-4eb4-9b4c-7c06f145800b" />
 
-🎮 Features
+# 🎮 Features
 . Fully playable Tetris (manual mode with arrow keys + space)
 . Built‑in AI player that can play automatically
 . Adjustable AI weights to modify gameplay style
